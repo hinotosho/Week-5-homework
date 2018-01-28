@@ -10,6 +10,8 @@ function changeBackground(event) {
 	event.preventDefault();
   /*  Get the value of the city name entered. */
 	var cityNameInput = $('#city-type').val();
+	console.log('cake', cityNameInput);
+
 	var nameWithSpace = $('#city-type').val();
 	// remove all spaces in the text input area
 	var nameWithoutSpace = nameWithSpace.replace(/ /g, "");
